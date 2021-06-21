@@ -1,0 +1,29 @@
+/* .example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+} 
+*/
+.container {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form {
+  margin: 75px 0;
+  padding: 20px;
+  border: 3px solid lightsteelblue;
+  border-radius: 10px;
+}
+
+mat-form-field {
+  width: 75%;
+}

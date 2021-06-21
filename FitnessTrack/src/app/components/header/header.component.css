@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  padding: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: lightsteelblue;
+}
+
+ul li a:hover,
+ul li a:active {
+  color: white;
+}
+
+h2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px;
+}

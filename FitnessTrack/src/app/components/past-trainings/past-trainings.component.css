@@ -1,0 +1,13 @@
+.container {
+  padding: 30px;
+}
+
+.mat-row,
+.mat-header-row,
+.mat-paginator {
+  min-width: 500px;
+}
+
+mat-form-field {
+  width: 50%;
+}

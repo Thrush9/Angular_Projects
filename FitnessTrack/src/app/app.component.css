@@ -1,0 +1,13 @@
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+  height: 100%;
+  background-color: aliceblue;
+}
+
+mat-sidenav {
+  width: 30%;
+  height: 100%;
+  padding: 5px;
+  background-color: aliceblue;
+}
