@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angularMaterialApp",
+      "public": "dist/angularMaterialApp",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.nav-caption {
+  display: inline-block;
+  padding: 5px;
+}
+
+a:hover {
+  color: lightslategray;
+}

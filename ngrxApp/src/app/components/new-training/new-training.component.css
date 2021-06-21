@@ -1,0 +1,11 @@
+.container {
+  padding: 30px;
+}
+
+mat-card {
+  padding: 20px;
+}
+
+mat-raised-button {
+  padding: 0px;
+}

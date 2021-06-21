@@ -1,0 +1,8 @@
+<section class="container" fxLayout.xs="column" fxLayoutGap.xs="20px" fxLayout="row" fxLayoutAlign="space-around center">
+    <mat-progress-spinner mode="determinate" [value]="progress"></mat-progress-spinner>
+    <div fxLayout="column" fxLayoutAlign="center">
+        <h1>Progress {{ progress }}%</h1>
+        <p>KeepOn Going! You can do it</p>
+        <button mat-raised-button type="submit" color="warn" (click)="onStop()"> Stop </button>
+    </div>
+</section>

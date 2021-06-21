@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fitnesstrack-cd64c": {
+      "hosting": {
+        "angularMaterialApp": [
+          "fitnesstrack-cd64c"
+        ]
+      }
+    }
+  }
+}
